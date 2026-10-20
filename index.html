@@ -1,1 +1,34 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#122a26"><title>Fitapp · Mi progreso</title><link rel="stylesheet" href="./style.css"></head><body><div class="shell"><header><a class="brand" href="./">fit<span>app</span><i>●</i></a><span>UN DÍA A LA VEZ</span></header><main><section class="intro"><div class="eyebrow" id="date"></div><h1>Tu ritmo.<br>Tu progreso.</h1><p>Un espacio para moverte, comer mejor y seguir avanzando.</p></section><nav aria-label="Secciones"><button data-tab="today">Hoy</button><button data-tab="routine">Mi rutina</button><button data-tab="food">Comidas</button><button data-tab="settings">Mi plan</button></nav><div id="content"></div><footer>El progreso se construye con constancia, no con perfección.<br>Tus registros se guardan solo en este navegador.</footer></main></div><script src="./app.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#163e35">
+  <title>Fitapp · Mi progreso</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="./" aria-label="Fitapp, inicio"><span class="brand-mark" aria-hidden="true">f.</span>fitapp<span class="brand-dot">●</span></a>
+      <div class="header-right"><span class="personal-label"><span class="status-dot"></span> MI ESPACIO PERSONAL</span><span class="avatar" aria-hidden="true">YO</span></div>
+    </header>
+    <main>
+      <section class="intro">
+        <div><div class="eyebrow" id="date"></div><h1>Un poco mejor.<br><span>Cada día.</span></h1><p>Tu entrenamiento, tu alimentación, tu ritmo.</p></div>
+        <div class="goal-note"><span class="goal-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></svg></span><div><span class="eyebrow">TU OBJETIVO</span><strong>Bajar de peso</strong><span>Construyendo hábitos que duran.</span></div></div>
+      </section>
+      <nav aria-label="Secciones principales">
+        <button data-tab="today"><span data-icon="home"></span><span>Hoy</span></button>
+        <button data-tab="routine"><span data-icon="dumbbell"></span><span>Mi rutina</span></button>
+        <button data-tab="food"><span data-icon="food"></span><span>Comidas</span></button>
+        <button data-tab="settings"><span data-icon="sliders"></span><span>Mi plan</span></button>
+        <span class="nav-note">TU ÚNICA COMPETENCIA SOS VOS.</span>
+      </nav>
+      <div id="content"></div>
+      <footer><span class="footer-mark">f.</span><div>La constancia vale más que la perfección.<br><span>Tus registros se guardan solo en este navegador.</span></div><span class="footer-note">HECHO PARA TU DÍA A DÍA</span></footer>
+    </main>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
